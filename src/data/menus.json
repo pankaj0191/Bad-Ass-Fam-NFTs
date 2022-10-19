@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Home",
+        "slug" : "home",
+        "href" : "/",
+        "url": ["/"]
+    },
+    {
+        "name": "About",
+        "slug" : "about",
+        "href" : "/about",
+        "url": ["/about"]
+    },
+    {
+        "name": "Roadmap",
+        "slug" : "roadmap",
+        "href" : "/roadmap",
+        "url": ["/roadmap"]
+    },
+    {
+        "name": "Faq",
+        "slug" : "faq",
+        "href" : "/faq",
+        "url": ["/faq"]
+    }  
+    ]

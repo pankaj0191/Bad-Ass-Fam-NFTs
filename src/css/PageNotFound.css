@@ -1,0 +1,331 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,700);
+
+.page-not-found svg {
+  height: 80vh;
+}
+
+.page-not-found .cls-1 {
+  fill: #ffc541;
+}
+
+.page-not-found .cls-2 {
+  fill: #19a5c6;
+}
+
+.page-not-found .cls-3 {
+  fill: #19a5c6;
+}
+
+.page-not-found .cls-4 {
+  fill: #f78d5e;
+}
+
+.page-not-found .cls-5 {
+  fill: #fa976c;
+}
+
+.page-not-found .cls-6,
+.page-not-found .cls-7,
+.page-not-found .cls-8 {
+  fill: #b65c32;
+}
+
+.page-not-found .cls-10,
+.page-not-found .cls-6 {
+  opacity: 0.6;
+}
+
+.cls-7 {
+  opacity: 0.4;
+}
+
+.page-not-found .cls-9 {
+  fill: #f4b73b;
+}
+
+.page-not-found .cls-11 {
+  fill: #f9c358;
+}
+
+.page-not-found .cls-12 {
+  fill: #9b462c;
+}
+
+.page-not-found .cls-13 {
+  fill: #aa512e;
+}
+
+.page-not-found .cls-14 {
+  fill: #7d6aa5;
+}
+
+.wrapper.page-not-found {
+  height: 100vh;
+}
+
+
+/* animations */
+
+.page-not-found .wheel {
+  animation: wheel-rotate 6s ease infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes wheel-rotate {
+  50% {
+    transform: rotate(360deg);
+    animation-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  }
+
+  100% {
+    transform: rotate(960deg)
+  }
+}
+
+.page-not-found .clock-hand-1 {
+  animation: clock-rotate 3s linear infinite;
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+.page-not-found .clock-hand-2 {
+  animation: clock-rotate 6s linear infinite;
+  transform-origin: bottom;
+  transform-box: fill-box;
+}
+
+@keyframes clock-rotate {
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+.page-not-found #box-top {
+  animation: box-top-anim 2s linear infinite;
+  transform-origin: right top;
+  transform-box: fill-box;
+}
+
+@keyframes box-top-anim {
+  50% {
+    transform: rotate(-5deg)
+  }
+}
+
+.page-not-found #umbrella {
+  animation: umbrella-anim 6s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes umbrella-anim {
+  25% {
+    transform: translateY(10px) rotate(5deg);
+  }
+
+  75% {
+    transform: rotate(-5deg);
+  }
+}
+
+.page-not-found #cup {
+  animation: cup-rotate 3s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+  transform-origin: top left;
+  transform-box: fill-box;
+}
+
+@keyframes cup-rotate {
+  50% {
+    transform: rotate(-5deg)
+  }
+}
+
+.page-not-found #pillow {
+  animation: pillow-anim 3s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes pillow-anim {
+  25% {
+    transform: rotate(10deg) translateY(5px)
+  }
+
+  75% {
+    transform: rotate(-10deg)
+  }
+}
+
+.page-not-found #stripe {
+  animation: stripe-anim 3s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes stripe-anim {
+  25% {
+    transform: translate(10px, 0) rotate(-10deg)
+  }
+
+  75% {
+    transform: translateX(10px)
+  }
+}
+
+.page-not-found #bike {
+  animation: bike-anim 6s ease infinite;
+}
+
+@keyframes bike-anim {
+  0% {
+    transform: translateX(-1300px)
+  }
+
+  50% {
+    transform: translateX(0);
+    animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+  }
+
+  100% {
+    transform: translateX(1300px)
+  }
+}
+
+.page-not-found #rucksack {
+  animation: ruck-anim 3s linear infinite;
+  transform-origin: top;
+  transform-box: fill-box;
+}
+
+@keyframes ruck-anim {
+  50% {
+    transform: rotate(5deg)
+  }
+}
+
+.page-not-found .circle {
+  animation: circle-anim ease infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+  perspective: 0px;
+}
+
+.page-not-found .circle.c1 {
+  animation-duration: 2s
+}
+
+.page-not-found .circle.c2 {
+  animation-duration: 3s
+}
+
+.page-not-found .circle.c3 {
+  animation-duration: 1s
+}
+
+.page-not-found .circle.c4 {
+  animation-duration: 1s
+}
+
+.page-not-found .circle.c5 {
+  animation-duration: 2s
+}
+
+.page-not-found .circle.c6 {
+  animation-duration: 3s
+}
+
+@keyframes circle-anim {
+  50% {
+    transform: scale(.2) rotateX(360deg) rotateY(360deg)
+  }
+}
+
+
+.back-to-home {
+  border: none;
+  border-radius: 4px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.48);
+  overflow: hidden;
+  padding: 12px 50px 12px 70px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  position: relative;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: background-position .7s, box-shadow .4s;
+  transition: background-position .7s, box-shadow .4s;
+  background-size: 110%;
+  font-family: 'Oswald', sans-serif;
+}
+
+.back-to-home:hover {
+  background-position: 0% 30%;
+}
+
+.back-to-home:hover:after {
+  right: -40px;
+  -webkit-transition: right .4s, -webkit-transform 30s .2s linear;
+  transition: right .4s, -webkit-transform 30s .2s linear;
+  transition: right .4s, transform 30s .2s linear;
+  transition: right .4s, transform 30s .2s linear, -webkit-transform 30s .2s linear;
+}
+
+.back-to-home:before,
+.back-to-home:after {
+  font-family: FontAwesome;
+  display: block;
+  position: absolute;
+}
+
+.back-to-home:before {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  font-size: 30px;
+  left: 25px;
+  top: 19px;
+}
+
+.back-to-home:after {
+  -webkit-transition: right .4s, -webkit-transform .2s;
+  transition: right .4s, -webkit-transform .2s;
+  transition: right .4s, transform .2s;
+  transition: right .4s, transform .2s, -webkit-transform .2s;
+  font-size: 100px;
+  opacity: .3;
+  right: -120px;
+  top: -17px;
+}
+
+.back-to-home {
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 10px 0px #19a5c6;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#19a5c6), to(rgba(154, 40, 87, 0.24))), url("http://nightlifeassociates.com/wp-content/uploads/2014/03/hakkasan-nightclub_tiesto-smalls.jpg");
+  background-image: linear-gradient(to bottom, #19a5c6, rgba(154, 40, 87, 0.24)), url("http://nightlifeassociates.com/wp-content/uploads/2014/03/hakkasan-nightclub_tiesto-smalls.jpg");
+}
+
+.back-to-home:hover {
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.16) inset, 0px 0px 30px 0px #19a5c6;
+}
+
+.back-to-home:hover:after {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.back-to-home:hover:before {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.back-to-home:after, .back-to-home:before {
+  content: "\f015";
+  margin-top: -15px;
+}
+
+.back-to-home b {
+  color: #19a5c6;
+  font-weight: 700;
+}

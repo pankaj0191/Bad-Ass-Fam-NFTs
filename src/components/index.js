@@ -1,0 +1,8 @@
+export { default as Home } from './Home'
+export { default as Faq } from './Faq'
+export { default as Gallery } from './Gallery'
+export { default as Roadmap } from './Roadmap'
+export { default as About } from './About'
+export { default as Routes } from './Routes'
+export { default as PageNotFound } from './miscellaneous/PageNotFound'
+export { default as Profile } from './profile/Profile'

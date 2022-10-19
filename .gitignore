@@ -1,0 +1,17 @@
+node_modules
+.DS_Store
+dist-ssr
+*.local
+node_modules
+.env
+coverage
+coverage.json
+typechain
+
+#Hardhat files
+cache
+artifacts
+
+/generator/build
+output
+# /dist

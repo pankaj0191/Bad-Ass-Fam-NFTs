@@ -1,0 +1,159 @@
+.profile-page .profile_sec {
+    padding: 50px 0 60px;
+}
+
+.profile-page .profile_sec .sec_title {
+    margin-bottom: 10px;
+}
+
+.profile-page .profile_cont {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 40px 30px;
+    border-radius: 10px;
+    border: 2px dashed #ffffff;
+}
+
+.profile-page .profile_img {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 6px solid transparent;
+    box-shadow: 0 0 5px #ffffff;
+    margin: 0 auto 15px;
+}
+
+.profile-page .profile_cont h5 {
+    text-transform: uppercase;
+}
+
+.profile-page .follow_outr {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profile-page .follow_outr>span {
+    padding: 10px;
+    display: block;
+    font-size: 19px;
+    line-height: normal;
+}
+
+.profile-page .follow_outr span small {
+    display: block;
+    font-size: 13px;
+}
+
+/* .profile-page .prof_btns {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+} */
+.popup_addr_outr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.address-input-error {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -10px;
+    color: red;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.profile-page #popup-root .popup-overlay {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.profile-page #popup-root .popup-content {
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    left: 50% !important;
+    transform: translateX(-50%);
+}
+
+button.close {
+    background: #FFCC00;
+    color: #fff;
+    font-size: 28px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    right: -12px;
+    top: -16px;
+}
+
+.popup-content .popup {
+    width: 70%;
+    margin: 0 auto;
+}
+
+p.AccorTxt {
+    color: #fff;
+}
+
+.explore.addBtn {
+    float: none;
+}
+
+.popup h3.text-dark {
+    color: #fff !important;
+}
+
+.inputWidth input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #FFCC00 !important;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.inputWidth input:focus {
+    background-color: transparent;
+    color: #fff;
+}
+
+.inputWidth {
+    width: 90%;
+}
+
+.profile-page #popup-root .popup {
+    width: 100%;
+}
+
+.popup-content>div svg {
+    display: block;
+}
+
+span.active-sale {
+    font-size: 12px;
+    text-transform: lowercase;
+    color: #41ff41;
+    margin-left: 8px;
+}
+
+span.inactive-sale {
+    font-size: 12px;
+    text-transform: lowercase;
+    color: #ff0800;
+    margin-left: 8px;
+}
+
+span.sale-date {
+    color: #ffcc00;
+}
